@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "238288116",
+    "firebase_url": "https://internshipapplicationsoleeklab.firebaseio.com",
+    "project_id": "internshipapplicationsoleeklab",
+    "storage_bucket": "internshipapplicationsoleeklab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238288116:android:cfd7567e7b8fdbe2",
+        "android_client_info": {
+          "package_name": "com.example.coder_kun.internshipapplicationsoleeklab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238288116-cs4qk0odortj0k0oh2hai3fske22di9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv7HTixXI_08sWCThqIpcKp20TqJppYJU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
