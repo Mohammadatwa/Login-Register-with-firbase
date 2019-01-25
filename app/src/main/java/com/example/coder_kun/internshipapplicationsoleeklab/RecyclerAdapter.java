@@ -25,7 +25,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter <RecyclerAdapter.MyVie
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder viewHolder, int i) {
         viewHolder.Country.setText(countries.get(i).getCountry());
-        viewHolder.Capital.setText(countries.get(i).getCountry());
+        viewHolder.Capital.setText(countries.get(i).getCapital());
     }
 
     @Override
