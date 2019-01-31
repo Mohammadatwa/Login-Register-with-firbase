@@ -13,7 +13,7 @@ public class CountryModel {
     public String getCountry() {
         return Country;
     }
-    public String getCapital() {
-        return Capital;
-    }
+    public String getCapital() { return Capital; }
+
+
 }

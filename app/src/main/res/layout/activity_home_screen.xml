@@ -22,7 +22,7 @@
 <android.support.v7.widget.RecyclerView
     android:id="@+id/countrieslistview"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="0dp"
     android:background="#E8EAF6"
     android:layout_marginTop="45dp"
     android:layout_marginBottom="120dp"
@@ -31,6 +31,18 @@
 
 
 </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/listbtnid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/home"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="12dp"
+        android:text="Show list of countries" />
+
+
 
     <Button
         android:id="@+id/logoutbtn"
