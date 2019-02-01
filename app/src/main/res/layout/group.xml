@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
         android:id="@+id/listTitle"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:paddingBottom="10dp"
-    android:paddingTop="10dp"
-    android:textColor="#A4C739" />
+    android:paddingStart="30dp"
+        android:paddingEnd="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+    android:textColor="#1d1a1a" />
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>

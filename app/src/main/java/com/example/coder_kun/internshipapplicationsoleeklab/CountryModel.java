@@ -2,7 +2,9 @@ package com.example.coder_kun.internshipapplicationsoleeklab;
 
 import com.google.gson.annotations.SerializedName;
 
-public class CountryModel {
+import java.io.Serializable;
+
+public class CountryModel implements Serializable {
 
     @SerializedName("name")
     private String Country;
